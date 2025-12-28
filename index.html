@@ -1,178 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rakib Mondal | Academic Homepage</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Rakib Mondal – Researcher in Applied Mathematics, Partial Differential Equations, and Hyperbolic Conservation Laws.">
-
   <style>
     body {
-      font-family: Georgia, "Times New Roman", serif;
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #111;
-      line-height: 1.65;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f7f9fc;
+      color: #222;
+      line-height: 1.6;
     }
-    h1 {
-      font-size: 2.3em;
-      margin-bottom: 0.2em;
+    header {
+      background: #1f3a5f;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
     }
-    h2 {
-      font-size: 1.4em;
-      border-bottom: 1px solid #444;
-      padding-bottom: 4px;
-      margin-top: 2em;
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
     }
-    a {
-      color: #0645ad;
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+    nav {
+      background: #162b45;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 0.8rem;
       text-decoration: none;
-    }
-    a:hover { text-decoration: underline; }
-    ul { margin-top: 0.5em; }
-
-    .top {
-      display: flex;
-      gap: 30px;
-      align-items: flex-start;
-    }
-    .photo img {
-      width: 170px;
-      border: 1px solid #aaa;
-    }
-    .info { flex: 1; }
-
-    .links a { margin-right: 12px; }
-
-    .cv-link {
       font-weight: bold;
     }
-
-    form {
-      max-width: 500px;
+    nav a:hover {
+      text-decoration: underline;
     }
-    label {
-      display: block;
-      margin-top: 10px;
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem 1rem;
+      background: #fff;
     }
-    input, textarea {
-      width: 100%;
-      padding: 8px;
-      margin-top: 5px;
-      font-family: inherit;
+    section {
+      margin-bottom: 2.5rem;
     }
-    button {
-      margin-top: 12px;
-      padding: 8px 16px;
-      font-family: inherit;
-      cursor: pointer;
+    section h2 {
+      border-bottom: 2px solid #1f3a5f;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: #1f3a5f;
     }
-
+    ul {
+      padding-left: 1.2rem;
+    }
     footer {
-      margin-top: 3em;
-      font-size: 0.9em;
-      color: #555;
+      text-align: center;
+      padding: 1rem;
+      background: #1f3a5f;
+      color: #fff;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
 
-<div class="top">
-  <div class="photo">
-    <!-- Replace photo.jpg with your image file -->
-    <img src="photo.jpg" alt="Rakib Mondal">
-  </div>
-  <div class="info">
-    <h1>Rakib Mondal</h1>
+<header>
+  <h1>Rakib Mondal</h1>
+  <p>Researcher in Applied Mathematics & Partial Differential Equations</p>
+</header>
+
+<nav>
+  <a href="#bio">Bio</a>
+  <a href="#research">Research Interests</a>
+  <a href="#publications">Publications</a>
+  <a href="#education">Education</a>
+  <a href="#conferences">Conferences</a>
+  <a href="#achievements">Achievements</a>
+</nav>
+
+<div class="container">
+
+  <section id="bio">
+    <h2>Short Bio</h2>
     <p>
-      Researcher in Applied Mathematics<br>
-      Partial Differential Equations & Hyperbolic Conservation Laws
+      Rakib Mondal is a researcher in applied mathematics with a primary focus on
+      the analysis of partial differential equations. His work emphasizes
+      hyperbolic conservation laws, nonlinear wave phenomena, and related
+      mathematical models arising in fluid dynamics and continuum mechanics.
     </p>
-    <p class="links">
-      <a href="#">Google Scholar</a>
-      <a href="#">ORCID</a>
-      <a href="#">ResearchGate</a>
-      <a href="mailto:your@email.com">Email</a>
-    </p>
-    <p class="cv-link">
-      <a href="cv.pdf">Curriculum Vitae (PDF)</a>
-    </p>
-  </div>
+  </section>
+
+  <section id="research">
+    <h2>Research Interests</h2>
+    <ul>
+      <li>Hyperbolic systems of conservation laws</li>
+      <li>Nonlinear partial differential equations</li>
+      <li>Riemann and Cauchy problems</li>
+      <li>Wave interactions and singular solutions</li>
+      <li>Mathematical models in fluid dynamics</li>
+    </ul>
+  </section>
+
+  <section id="publications">
+    <h2>Publications</h2>
+    <ul>
+      <li>
+        Author(s), <em>Title of the paper</em>, Journal Name, Volume (Year), Pages.
+      </li>
+      <li>
+        Author(s), <em>Title of the paper</em>, Journal Name, Volume (Year), Pages.
+      </li>
+      <li>
+        Author(s), <em>Title of the paper</em>, Journal Name, Volume (Year), Pages.
+      </li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>Ph.D. in Mathematics, Institute Name, Year</li>
+      <li>M.Sc. in Mathematics, University Name, Year</li>
+      <li>B.Sc. in Mathematics, University Name, Year</li>
+    </ul>
+  </section>
+
+  <section id="conferences">
+    <h2>Conferences & Workshops</h2>
+    <ul>
+      <li>International Conference on Applied Mathematics, Year</li>
+      <li>Workshop on Partial Differential Equations, Year</li>
+      <li>National Conference on Mathematical Analysis, Year</li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Qualified National/International competitive examination</li>
+      <li>Recipient of fellowship or scholarship (if any)</li>
+      <li>Best paper / presentation award (if any)</li>
+    </ul>
+  </section>
+
 </div>
 
-<h2>Short Bio</h2>
-<p>
-  I am a researcher in applied mathematics with a focus on nonlinear partial
-  differential equations, particularly hyperbolic systems of conservation laws.
-  My research interests include wave interactions, Riemann and Cauchy problems,
-  and singular solutions arising in fluid dynamics and related models.
-</p>
-
-<h2>Research Interests</h2>
-<ul>
-  <li>Hyperbolic systems of conservation laws</li>
-  <li>Nonlinear partial differential equations</li>
-  <li>Riemann and Cauchy problems</li>
-  <li>Wave interactions and singular solutions</li>
-  <li>Mathematical fluid dynamics</li>
-</ul>
-
-<h2>Publications</h2>
-<ul>
-  <li>Author(s), <em>Title of the paper</em>, Journal Name, Year.</li>
-  <li>Author(s), <em>Title of the paper</em>, Journal Name, Year.</li>
-</ul>
-
-<h2>Preprints and Ongoing Work</h2>
-<ul>
-  <li><em>Title of preprint</em>, arXiv:xxxx.xxxxx.</li>
-  <li>Ongoing work on wave interactions in hyperbolic systems.</li>
-</ul>
-
-<h2>Workshops and Conferences</h2>
-<ul>
-  <li>International Conference on Applied Mathematics, Year.</li>
-  <li>Workshop on Partial Differential Equations, Year.</li>
-</ul>
-
-<h2>Achievements</h2>
-<ul>
-  <li>Qualified national-level competitive examinations.</li>
-  <li>Recipient of academic fellowship/scholarship.</li>
-</ul>
-
-<h2>Softwares and Skills</h2>
-<ul>
-  <li>LaTeX, BibTeX</li>
-  <li>MATLAB / Python (scientific computing)</li>
-  <li>Mathematical modeling and analytical techniques</li>
-</ul>
-
-<h2>Miscellaneous</h2>
-<ul>
-  <li>Academic reviewing and seminar participation</li>
-  <li>Interest in mathematical exposition and teaching</li>
-</ul>
-
-<h2>Contact</h2>
-<p>You may contact me using the form below:</p>
-
-<form action="https://formspree.io/f/your-form-id" method="POST">
-  <label>Name
-    <input type="text" name="name" required>
-  </label>
-  <label>Email
-    <input type="email" name="email" required>
-  </label>
-  <label>Message
-    <textarea name="message" rows="5" required></textarea>
-  </label>
-  <button type="submit">Send</button>
-</form>
-
 <footer>
-  <p>Last updated: 2025</p>
+  <p>&copy; 2025 Rakib Mondal. All rights reserved.</p>
 </footer>
 
 </body>
